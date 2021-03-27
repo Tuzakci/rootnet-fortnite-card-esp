@@ -13,9 +13,9 @@ import java.io.IOException;
 import java.net.URL;
 
 @SuppressWarnings("unused")
-@RootnetAddon(name = "FrogESP", author = "ADifferentPerson", version = "1.1.1")
+@RootnetAddon(name = "19 Dollar Fortnite Card ESP", author = "ADifferentPerson - forked by Tuzakci", version = "1.1.1")
 public final class FrogEspAddon extends Addon {
-    private static final String FROG_URL = "https://i.imgur.com/UI94ded.png";
+    private static final String FROG_URL = "https://cdn.discordapp.com/attachments/803114971659108362/825423573006811136/fortnite.gif";
     private static final Minecraft MC = Minecraft.getMinecraft();
     static ResourceLocation frog;
     static double frogRatio;
@@ -24,7 +24,7 @@ public final class FrogEspAddon extends Addon {
     @Override
     public final void init() {
         INSTANCE = this;
-        log(Level.INFO, "Initializing FrogESP Addon...");
+        log(Level.INFO, "Initializing Fortnite Card...");
         try {
             final BufferedImage image = ImageIO.read(new URL(FROG_URL));
             frogRatio = ((double) image.getWidth()) / ((double) image.getHeight());
