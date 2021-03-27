@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.net.URL;
 
 @SuppressWarnings("unused")
-@RootnetAddon(name = "19 Dollar Fortnite Card ESP", author = "ADifferentPerson - forked by Tuzakci", version = "1.1.1")
+@RootnetAddon(name = "19 Dollar Fortnite Card ESP", author = "ADifferentPerson - Forked by Tuzakci", version = "1.1.1")
 public final class FrogEspAddon extends Addon {
     private static final String FROG_URL = "https://cdn.discordapp.com/attachments/803114971659108362/825423573006811136/fortnite.gif";
     private static final Minecraft MC = Minecraft.getMinecraft();
