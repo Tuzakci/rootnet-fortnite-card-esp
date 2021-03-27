@@ -26,5 +26,5 @@ jobs:
     - name: Upload built file
       uses: actions/upload-artifact@v2
       with:
-        name: FrogESPAddon
+        name: FortniteCardESPAddon
         path: ./build/libs/rootnet-frog-esp-*[!sources].jar
