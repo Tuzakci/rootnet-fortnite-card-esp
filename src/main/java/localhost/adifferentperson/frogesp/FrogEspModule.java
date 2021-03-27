@@ -21,7 +21,7 @@ import java.nio.FloatBuffer;
 
 import static org.lwjgl.opengl.GL11.*;
 
-@RootnetModule(name = "19 Dollar Fortnite Card ESP")
+@RootnetModule(name = "19 Dollar Fortnite Card ESP. Who wants it?")
 public final class FrogEspModule extends AddonModule {
 
     private final Minecraft MC = Minecraft.getMinecraft();
